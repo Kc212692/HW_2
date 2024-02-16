@@ -133,7 +133,7 @@ def question3():
     answer["(f) attr for splitting"] = "Car type"
 
     # Explanatory text string
-    answer["(f) explain choice"] = "Car type has the lowest gini among the three attributes(Gender,Car type and Shirt)"
+    answer["(f) explain choice"] = "Among the three attributes (Gender, Car type, and Shirt), the car type exhibits the lowest Gini coefficient."
 
     return answer
 
@@ -208,17 +208,17 @@ def question5():
 
     # string: one of 'Model 1' or 'Model 2'
     explain["a"] = "Model 2"
-    explain["a explain"] = "Model 1 has high accuracy on A but accuracy drops on B which indicates overfitting, But for Model 2 accuracy on both Dataset A and B are almost same indicating better generalization to new data. "
+    explain["a explain"] = "Model 1 demonstrates high accuracy on Dataset A; however, its accuracy drops notably on Dataset B, suggesting overfitting. Conversely, Model 2 exhibits consistent accuracy across both Dataset A and B, indicating superior generalization to new data. "
 
     # string: one of 'Model 1' or 'Model 2'
     explain["b"] = "Model 2"
-    explain["b explain"] = "Though accuracy drops slightly Model 2 is still preferable due to better generalization observed earlier and it is less likely to overfit."
+    explain["b explain"] = "Despite a slight decrease in accuracy, Model 2 remains preferable due to its previously observed better generalization, making it less prone to overfitting."
 
     explain["c similarity"] = "Regularization"
-    explain["c similarity explain"] = "Both techniques aims to reduce overfitting by penalizing models for complexity."
+    explain["c similarity explain"] = "Both techniques aim to mitigate overfitting by penalizing models based on their complexity."
 
     explain["c difference"] = "Specificity"
-    explain["c difference explain"] = "MDL aims for a model that requires fewer bits to describe,whereas pessimistic error aims to adjust tree error to avoid complex decision tree."
+    explain["c difference explain"] = "The Minimum Description Length (MDL) principle aims to develop a model that necessitates fewer bits for its description. In contrast, the pessimistic error approach seeks to adjust the tree's error to prevent the creation of overly complex decision trees."
 
     return explain
 
