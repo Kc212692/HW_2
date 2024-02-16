@@ -243,9 +243,8 @@ def question6():
     # float between 0 and 1
     # Missclassification X coordinates = 0 to 0.2
     # Missclassification Y coordinates = 0.7 to 1.0
-    error = 0.2*0.3
     
-    answer["b, expected error"] = error
+    answer["b, expected error"] = 0.06
     
 
     # Use u.BinaryTree to define the tree. Create your tree.
